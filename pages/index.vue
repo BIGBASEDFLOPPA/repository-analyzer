@@ -4,6 +4,7 @@ import AppErrorBar from "~/components/ui/AppErrorBar.vue";
 import AppNavbar from "~/components/ui/AppNavbar.vue";
 import RepoWorkspace from "~/components/workspace/RepoWorkspace.vue";
 import AppLoader from "~/components/ui/AppLoader.vue";
+import EasterEgg from "~/components/EasterEggs/EasterEgg.vue";
 
 useHead(() => ({ title: 'GitHub AI Analyzer' }))
 
@@ -48,7 +49,7 @@ async function handleChat(msg: string) {
     <AppNavbar />
 
     <SearchBar :disabled="isLoading" @submit="handleSubmit" />
-
+    <EasterEgg/>
     <AppErrorBar
       v-if="status === 'error' && error"
       :status-code="error.statusCode"
