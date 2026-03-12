@@ -1,0 +1,26 @@
+export const LANG_COLORS: Record<string, string> = {
+  TypeScript:  '#3178c6',
+  JavaScript:  '#f1e05a',
+  Python:      '#3572A5',
+  Rust:        '#dea584',
+  Go:          '#00ADD8',
+  Java:        '#b07219',
+  'C++':       '#f34b7d',
+  C:           '#555555',
+  Ruby:        '#701516',
+  PHP:         '#4F5D95',
+  Swift:       '#ffac45',
+  Kotlin:      '#A97BFF',
+  Vue:         '#41b883',
+  CSS:         '#563d7c',
+  HTML:        '#e34c26',
+  Shell:       '#89e051',
+  Dart:        '#00B4AB',
+  'C#':        '#178600',
+}
+
+export const LANG_COLOR_FALLBACK = '#8b90b8'
+
+export function getLangColor(lang: string): string {
+  return LANG_COLORS[lang] ?? LANG_COLOR_FALLBACK
+}
