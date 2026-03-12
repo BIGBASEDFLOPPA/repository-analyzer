@@ -11,8 +11,9 @@ npm run dev
 
 ## Необходимо добавить env файл
 
-| `COHERE_API_KEY` | Ключ Cohere — [dashboard.cohere.com]
-| `GITHUB_TOKEN` | GitHub PAT — повышает лимит с 60 до 5000 запросов
+ `COHERE_API_KEY` [dashboard.cohere.com]
+
+ `GITHUB_TOKEN` повышает лимит с 60 до 5000 запросов
 
 ## Стек
 
