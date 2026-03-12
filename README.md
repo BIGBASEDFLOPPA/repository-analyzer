@@ -1,4 +1,5 @@
 # GitHub AI Analyzer
+Сайт доступен по адресу https://repository-analyzer-phi.vercel.app/
 
 Nuxt 4 + TypeScript приложение для анализа GitHub репозиториев с помощью бесплатного ИИ (Cohere).
 
