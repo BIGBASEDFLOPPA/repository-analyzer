@@ -8,7 +8,7 @@ const totalBytes = computed(() =>
   Object.values(props.languages).reduce((a, b) => a + b, 0)
 )
 
-const items = computed(() =>
+const items = computed( () =>
   Object.entries(props.languages)
     .sort(([, a], [, b]) => b - a)
     .slice(0, 6)
